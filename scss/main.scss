@@ -1,0 +1,281 @@
+@import "../bootstrap/scss/bootstrap.scss";
+@import "reset";
+
+header {
+  background-color: black;
+  height: 85px;
+  padding: 20px 0;
+  .logo {
+    background-color: white;
+    height: 45px;
+  }
+  .nav-menu {
+    background-color: red;
+    height: 45px;
+  }
+  .nav-button {
+    background-color: red;
+    height: 45px;
+  }
+  .hamburger {
+    background-color: rgb(0, 85, 255);
+    height: 45px;
+  }
+}
+
+// banner starts
+.banner {
+  background-color: gray;
+  height: calc(100vh - 85px);
+  padding: 150px 0;
+  .banner-cont {
+    height: 300px;
+    margin: 0 auto;
+    background: #000;
+  }
+}
+// banner ends
+
+// client starts
+.client {
+  background-color: black;
+  padding: 25px 0;
+  .client-cont {
+    background-color: rgb(209, 45, 45);
+    height: 100px;
+  }
+}
+// client ends
+
+// About starts
+.about {
+  background-color: rgb(255, 255, 255);
+  padding: 60px 0;
+  .abt-left {
+    background-color: black;
+    height: 300px;
+  }
+  .abt-right {
+    padding: 20px;
+    background-color: #000;
+    .abt-right-cont {
+      height: 150px;
+      background-color: white;
+    }
+  }
+}
+// About ends
+
+// dash-board starts
+.dash-board {
+  padding: 20px 0;
+  background-color: gray;
+  .dash-cont {
+    background-color: #fff;
+    height: 120px;
+  }
+}
+// dash-board ends
+
+// tabs starts
+.tabs {
+  background-color: #000;
+  padding: 40px 0;
+  .tab-click {
+    background-color: gray;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  .tab-left {
+    background-color: gray;
+    height: 500px;
+  }
+  .tab-right {
+    background-color: gray;
+    height: 400px;
+  }
+}
+// tabs ends
+
+// Service starts
+.service {
+  padding: 60px 0;
+  background-color: white;
+  .service-head {
+    background-color: black;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .service-box {
+    background-color: black;
+    height: 165px;
+  }
+}
+
+// portfolio
+.portfolio {
+  padding: 60px 0;
+  background-color: wheat;
+  .portfolio-head {
+    background-color: black;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .portfolio-links {
+    height: 30px;
+    background-color: #000;
+    margin-bottom: 20px;
+  }
+  .portfolio-box {
+    background-color: black;
+    height: 300px;
+  }
+}
+// testimonials
+.testimonial {
+  padding: 40px 0;
+  background-color: white;
+  .testimonial-head {
+    background-color: black;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .testimonial-card {
+    background-color: black;
+    height: 350px;
+  }
+}
+// pricing
+.pricing {
+  padding: 40px 0;
+  background-color: wheat;
+  .pricing-head {
+    background-color: gray;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .pricing-card {
+    background-color: gray;
+    height: 350px;
+  }
+}
+// faq starts
+.faq {
+  padding: 40px 0;
+  background-color: white;
+  .faq-head {
+    background-color: black;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .faq-card {
+    background-color: black;
+    height: 60px;
+  }
+}
+// team
+.team {
+  padding: 40px 0;
+  background-color: wheat;
+  .team-head {
+    background-color: gray;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .team-card {
+    background-color: gray;
+    height: 350px;
+  }
+}
+// contact
+.contact {
+  padding: 40px 0;
+  background-color: white;
+  .contact-head {
+    background-color: black;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  .contact-left {
+    background-color: black;
+    height: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
+    .contact-add {
+      height: 130px;
+      background-color: wheat;
+      margin-bottom: 20px;
+    }
+    .contact-email {
+      background-color: wheat;
+      height: 160px;
+    }
+    .contact-number {
+      background-color: wheat;
+      height: 160px;
+    }
+  }
+  .contact-right {
+    background-color: black;
+    height: 350px;
+    padding: 20px;
+    .cont-name {
+      padding: 25px;
+      background-color: #fff;
+    }
+    .cont-email {
+      padding: 25px;
+      background-color: #fff;
+    }
+    .cont-subject {
+      padding: 25px;
+      background-color: #fff;
+    }
+    .cont-message {
+      padding: 40px;
+      background-color: #fff;
+    }
+    .cont-btn {
+      padding: 25px;
+      background-color: #fff;
+    }
+  }
+}
+// footer-links
+.footer-links {
+  padding: 25px 0;
+  background-color: wheat;
+  .link-1 {
+    background-color: gray;
+    height: 170px;
+    margin-bottom: 20px;
+  }
+  .link-2 {
+    background-color: gray;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .link-3 {
+    background-color: gray;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .link-4 {
+    background-color: gray;
+    height: 160px;
+  }
+}
+// footer
+.footer {
+  padding: 20px 0;
+  background-color: black;
+  .footer-rights {
+    background-color: gray;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .footer-media {
+    background-color: gray;
+    height: 50px;
+  }
+}
